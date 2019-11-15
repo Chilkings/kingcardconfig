@@ -6,7 +6,7 @@
 修改者QQ:lbr-dev(3170482764),预留
 本项目开源地址:https://github.com/kingcardconfig/kingcardconfig/
 */
-include_once('public.php');
-$wkdtconfig=file_get_contents($configwkdtconfigfilename);
+include_once('public/public.php');
+$wkdtconfig=fgc("files/".$configwkdtconfigfilename);
 echo $wkdtconfig;
 ?>

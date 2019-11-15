@@ -6,7 +6,7 @@
 修改者QQ:lbr-dev(3170482764),预留
 本项目开源地址:https://github.com/kingcardconfig/kingcardconfig/
 */
-include_once('public.php');
+include_once('public/public.php');
 echo '<!DOCTYPE html>
 <html>
 
@@ -32,11 +32,11 @@ echo '<!DOCTYPE html>
 
 	<p> 本项目github开源地址: <a href = "https://github.com/kingcardconfig/kingcardconfig/">https://github.com/kingcardconfig/kingcardconfig/</a></p>
 	
-	<p>官方网站: <a href = "https://520host.gq/kingcardconfig/">https://520host.gq/kingcardconfig/</a></p>
+	<p>官方网站: <a href = "http://kingcardconfig.ml/">http://kingcardconfig.ml</a></p>
 	
 	<p><a href = "submitguidandtoken.php">提交配置</a></p>
 
-	<p> kingcardconfig版本:1.001-20190729172900 </p>
+	<p> kingcardconfig版本:1.002-20191115163900 </p>
 		
 
 	<!-- <a href = "?">?</a>  //-->

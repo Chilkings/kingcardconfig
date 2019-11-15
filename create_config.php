@@ -1,18 +1,18 @@
 <?php
 /*
 第一修改者为作者
-修改者:半条咸鱼,lbr-dev,预留
-修改者GITHUB:半条咸鱼(https://github.com/Halfsaltedfish/),lbr-dev(https://github.com/lbr-dev/),预留
-修改者QQ:半条咸鱼(379369845),lbr-dev(3170482764),预留
+修改者:lbr-dev,预留
+修改者GITHUB:lbr-dev(https://github.com/lbr-dev/),预留
+修改者QQ:lbr-dev(3170482764),预留
 本项目开源地址:https://github.com/kingcardconfig/kingcardconfig/
 */
-include_once('public.php');
+include_once('public/public.php');
 
-$config = file_get_contents('php://input');
+$config = fgc('php://input');
 
 // check for required fields
 if (strlen($config) > 50) {
-  $result = file_put_contents($configwkdtconfigfilename,$config);
+  $result = fpc("files/".$configwkdtconfigfilename,$config);
     // check result
   if ($result>50) {
         // successfully put into file

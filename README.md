@@ -3,7 +3,7 @@
 
 使用方法
 
-要定时监控url/cron.php，以启用检查guid和token是否有效，如果无效则更新guid和token，直到没有可用的guid和token为止。
+要定时监控url/cron/cron.php，以启用检查guid和token是否有效，如果无效则更新guid和token，直到没有可用的guid和token为止。
 
 王卡配置助手自定义接口url/get_config.php。
 
@@ -17,8 +17,11 @@ https://github.com/kingcardconfig/kingcardconfig/
 
 官网
 
-http://520host.gq/kingcardconfig/
-http://2099.gq/kingcardconfig/(http://520host.gq/kingcardconfig/ 别名)
+http://kingcardconfig.ml/
+
+官网(使用CDN)
+
+http://kingcardconfigcdn.ml/
 
 使用本程序的网站
 

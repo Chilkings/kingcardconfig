@@ -6,9 +6,6 @@
 修改者QQ:lbr-dev(3170482764),预留
 本项目开源地址:https://github.com/kingcardconfig/kingcardconfig/
 */
-include_once('public/public.php');
-$wkdtconfig=fgc("files/".$configwkdtconfigfilename);
-$guid=getconfigguid($wkdtconfig);
-$token=getconfigtoken($wkdtconfig);
-echo $guid.",".$token;
+include_once(dirname(dirname(__FILE__)).'/public/public.php');
+echo "禁止访问！";
 ?>

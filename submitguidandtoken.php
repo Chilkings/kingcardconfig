@@ -6,15 +6,15 @@
 修改者QQ:lbr-dev(3170482764),预留
 本项目开源地址:https://github.com/kingcardconfig/kingcardconfig/
 */
-include_once('public.php');
+include_once('public/public.php');
 $submit = $_GET['submit'];
 if ($submit == 'yes') {
 $guid = $_GET['guid'];
 $token = $_GET['token'];
 $time=date("Y-m-d H:i:s");
 $wkdtconfig='{"Time":"'.$time.'","Guid":"'.$guid.'","Token":"'.$token.'"}';
-file_put_contents($configwkdtconfigfilename,$wkdtconfig);
-echo "写入配置到".$configwkdtconfigfilename."成功！";
+fpc("files/".$configwkdtconfigfilename,$wkdtconfig);
+echo "写入配置到files/".$configwkdtconfigfilename."成功！";
 } else {
 echo '<!DOCTYPE html>
 <html>

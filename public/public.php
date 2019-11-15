@@ -9,6 +9,6 @@
 error_reporting(E_ERROR|E_WARNING|E_PARSE);
 date_default_timezone_set('Asia/Shanghai');
 header("Content-type:text/html;charset=utf-8");
-include_once('config.php');
-include_once('function.php');
+include_once(dirname(dirname(__FILE__)).'/config/config.php');
+include_once(dirname(dirname(__FILE__)).'/function/function.php');
 ?>
